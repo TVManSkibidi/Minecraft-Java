@@ -1,0 +1,16 @@
+raws: dataraw
+data: ***.rawdat
+main_file: Minecraft.java
+applet_file: MinecraftApplet.java
+load: Minecraft.java
+required: {
+  settings.lev
+  internal.xml
+  external.xml
+	minecraft_maindata.py
+	camera.sourcepy
+	ol.py
+	1a1.xml
+	2b1.xml
+	3c1.xml
+}
