@@ -1,1 +1,9 @@
+# Set the default behavior for text files
+* text=auto
 
+# Explicitly declare files that should always have CRLF line endings on checkout.
+*.txt text eol=crlf
+*.md text eol=crlf
+
+# Declare .csv files as binary to prevent line-ending conversions
+*.csv binary
