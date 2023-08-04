@@ -1,0 +1,3 @@
+add PiCraft or using Pkg 
+Pkg.add("https://github.com/JuliaBerry/PiCraft.jl")
+package.console(using PiCraft)
